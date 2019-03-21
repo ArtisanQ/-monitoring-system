@@ -17,10 +17,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"modules/agent_linux/cron"
-	"modules/agent_linux/funcs"
-	"modules/agent_linux/g"
-	"modules/agent_linux/http"
+	"github.com/open-falcon/falcon-plus/modules/agent/cron"
+	"github.com/open-falcon/falcon-plus/modules/agent/funcs"
+	"github.com/open-falcon/falcon-plus/modules/agent/g"
+	"github.com/open-falcon/falcon-plus/modules/agent/http"
 	"os"
 )
 

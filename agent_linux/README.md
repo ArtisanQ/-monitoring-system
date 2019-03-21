@@ -6,10 +6,9 @@
 [1.配置（cfg.example.json）](#cfg)  
 [2.命令](#script)  
 ---
-
-
 <h2 id='cfg'>配置（cfg.example.json）</h2>
-```$xslt
+
+```
 配置文件必须叫cfg.json，可以基于cfg.example.json修改
 
 {
@@ -66,8 +65,13 @@
         "mem.swapfree": true
     }
 }
+
+
 ```
+
+
 <h2 id='script'>命令</h2>
+
 ```
 go get    -来动态获取远程代码包
 ./control build  
@@ -80,5 +84,6 @@ go get    -来动态获取远程代码包
 ./control restart 重启进程
 ./control status 查看进程状态
 ./control tail 用tail -f的方式查看var/app.log
+
 ```
 
